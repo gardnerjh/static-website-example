@@ -1,0 +1,22 @@
+{
+  "name": "static-website-example",
+  "version": "1.0.0",
+  "description": "Static Website Example",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server \"src\" --files \"src\" --port 8080 --no-open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gardnerjh/static-website-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gardnerjh/static-website-example/issues"
+  },
+  "homepage": "https://github.com/gardnerjh/static-website-example#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14"
+  }
+}
